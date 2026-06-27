@@ -1,0 +1,30 @@
+.custom-menu .ant-menu-item {
+  display: flex;
+  min-width: 0;
+  line-height: 40px !important;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+.ant-menu-item:hover {
+  color: #1677ff !important;
+}
+
+.ant-menu-item-selected {
+  color: #fff !important;
+}
+.custom-menu {
+  background: var(--bg);
+  font-weight: 600;
+  min-width: 300px !important;
+}
+.ant-menu-item::after {
+  border-bottom: none !important;
+}
+.header-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}

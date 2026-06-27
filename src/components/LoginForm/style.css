@@ -1,0 +1,45 @@
+.login-form .ant-form-item-required {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff !important;
+}
+.login-form .ant-form-item-required::before {
+  display: none !important;
+}
+.login-form .ant-input {
+  height: 56px;
+  padding: 0px 18px !important;
+
+  background-color: rgb(23, 25, 36);
+  border: 1px solid rgb(64, 66, 78);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  max-width: 100%;
+  outline: 0px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 21px;
+}
+.login-form .ant-input:hover {
+  background-color: rgb(23, 25, 36) !important;
+  border-color: #3861fb;
+}
+.login-form .ant-input::placeholder {
+  color: #40424e;
+}
+.login-form .ant-input:focus {
+  background-color: rgb(23, 25, 36) !important;
+  border-color: #3861fb;
+  box-shadow: rgba(56, 97, 251, 0.3) 0px 0px 0px 4px;
+}
+.login-form .ant-input-status-error {
+  background-color: rgb(23, 25, 36) !important;
+}
+.login-form .login-form_button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  height: auto !important;
+  padding: 8px;
+}

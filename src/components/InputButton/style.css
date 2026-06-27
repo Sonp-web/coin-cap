@@ -1,0 +1,39 @@
+.input-header {
+  width: 200px;
+  height: 32px;
+  cursor: pointer;
+  pointer-events: auto;
+  background-color: #323546;
+  padding: 8px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: #646b80 !important;
+}
+.input-header .ant-input::placeholder {
+  color: #646b80 !important;
+}
+
+.input-header:hover,
+.input-header:focus-within {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0.16) 100%
+    ),
+    #323546;
+}
+.input-header,
+.input-header.ant-input-affix-wrapper,
+.input-header .ant-input {
+  cursor: pointer !important;
+}
+
+.input-header .ant-input {
+  pointer-events: none !important;
+}
+.search-outlined {
+  color: #646b80 !important;
+}

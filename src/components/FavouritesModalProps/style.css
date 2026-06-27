@@ -1,0 +1,13 @@
+.favourites-modal-props__wrapper {
+  text-align: center;
+}
+.favourites-modal-props__star {
+  margin-top: 20px;
+  font-size: 50px;
+  color: #f5b97f;
+}
+.favourites-modal-props__temp {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0;
+}

@@ -1,0 +1,23 @@
+.profile-button__flex {
+  gap: 5px !important;
+}
+.profile-button__button {
+  border-radius: 20px !important;
+  padding: 3px;
+  background-color: var(--bg);
+  border-color: #646b80;
+}
+.profile-button__button:hover {
+  background-color: #323546 !important;
+  border-color: #646b80 !important;
+}
+.profile-button__icon {
+  margin-left: 3px;
+  color: #646b80;
+}
+.profile-button__img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 50%;
+}

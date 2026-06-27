@@ -1,0 +1,21 @@
+.ant-popover-container,
+.ant-popover-arrow:after,
+.ant-popover-arrow::before {
+  background-color: #222531 !important;
+}
+.favourites-modal__span {
+  display: inline-block;
+}
+.favourites-modal {
+  width: 300px;
+}
+.ant-popover-container {
+  padding: 16px !important;
+}
+.ant-popover-title {
+  font-size: 14px !important;
+  color: #fff !important;
+}
+.ant-popover-content {
+  color: #fff !important;
+}

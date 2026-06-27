@@ -1,0 +1,18 @@
+.registration-form-button {
+  height: auto;
+  font-size: 14px;
+  font-weight: 600;
+  border-width: 1px;
+  border-style: solid;
+  color: #fff;
+  border-color: #53596a;
+  background-color: #222531;
+  border-radius: 8px;
+  padding: 12px;
+  transition: background-color 0.2s ease-in-out;
+}
+.registration-form-button:hover {
+  background-color: #0d1421 !important;
+  border-color: #53596a !important;
+  color: #fff !important;
+}

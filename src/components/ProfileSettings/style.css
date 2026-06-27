@@ -1,0 +1,74 @@
+.profile-settings_value {
+  color: #a1a7bb;
+}
+.profile-settings_radio-group {
+  display: block;
+}
+.ant-tabs-nav-list {
+  justify-content: center !important;
+}
+.settings-modal .ant-tabs-nav-wrap {
+  justify-content: center !important;
+}
+.settings-modal .ant-modal-container {
+  background-color: #222531 !important;
+}
+.profile-settings_radio-group .grid-radio-button {
+  background-color: #222531;
+  display: block;
+  border: none;
+}
+.profile-settings_radio-group .grid-radio-button .ant-radio-button-checked {
+  background-color: #323546;
+  border-radius: 6px;
+}
+.profile-settings_radio-group .grid-radio-button:hover {
+  background-color: #323546 !important;
+}
+.settings-modal .ant-tabs-nav:before {
+  border: none;
+}
+.settings-modal p {
+  line-height: 22.5px;
+}
+.settings-modal .ant-tabs-tab {
+  font-size: 20px;
+}
+.settings-modal .ant-tabs-tab-btn {
+  color: #a1a7bb;
+  font-weight: 400;
+}
+.settings-modal .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+  font-weight: 700;
+}
+.settings-modal .ant-radio-button-label {
+  display: block;
+}
+.settings-modal .grid-radio-button {
+  height: auto !important;
+}
+.profile-settings_icon {
+  font-size: 14px;
+  color: #16c784 !important;
+}
+.settings-modal .ant-radio-button-wrapper {
+  padding: 12px;
+}
+.profile-settings_choice-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.profile-settings_choice-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a1a7bb;
+}
+.settings-modal .ant-modal-close,
+.settings-modal .ant-modal-close:hover {
+  color: #a1a7bb !important;
+}
+.settings-modal .ant-tabs-tab-btn:focus {
+  color: #ffffff !important;
+}

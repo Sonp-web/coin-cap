@@ -1,0 +1,12 @@
+.header-button {
+  font-size: 12px;
+  font-weight: 400;
+  background-color: var(--bg);
+  color: #fff;
+  border: none;
+}
+.header-button:hover {
+  background-color: #323546 !important;
+  color: #fff !important;
+  border: none !important;
+}

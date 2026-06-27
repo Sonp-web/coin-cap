@@ -1,0 +1,27 @@
+.login-registration-modal .ant-modal-container {
+  background-color: #222531 !important;
+}
+.login-registration-modal .ant-tabs-nav-wrap {
+  justify-content: center !important;
+}
+.login-registration-modal .ant-tabs-nav:before {
+  border: none;
+}
+
+.login-registration-modal .ant-tabs-tab {
+  font-size: 20px;
+}
+.login-registration-modal .ant-tabs-tab-btn {
+  color: #a1a7bb;
+  font-weight: 400;
+}
+.login-registration-modal
+  .ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: #fff !important;
+  font-weight: 700;
+}
+.login-registration-modal .ant-tabs-tab-btn:focus {
+  color: #ffffff !important;
+}

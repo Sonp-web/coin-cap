@@ -1,0 +1,27 @@
+.theme-choice {
+  padding: 5px;
+  background-color: #323546;
+  border-radius: 10px;
+}
+.theme-choice label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #a1a7bb;
+
+  background-color: #323546 !important;
+  border-color: #323546 !important;
+}
+.theme-choice .ant-radio-button-wrapper-checked {
+  background-color: #222531 !important;
+  border-color: #222531 !important;
+  color: #fff;
+}
+.theme-choice_title {
+  font-size: 12px;
+}
+.theme-choice .ant-radio-button-wrapper:hover {
+  color: #fff;
+}
+.theme-choice_wrapper {
+  margin-left: 8px;
+}
