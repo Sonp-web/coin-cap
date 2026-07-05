@@ -37,7 +37,6 @@ const CustomHeader: React.FC = () => {
 
             <FavouritesModal />
             <InputButton />
-            {/* <LoginButton /> */}
             <ProfileModal />
           </Flex>
         </section>

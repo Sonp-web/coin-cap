@@ -1,7 +1,8 @@
 import { StarFilled } from "@ant-design/icons";
 import "./style.css";
+import { useAppSelector } from "../../hooks/hooks";
 const FavouritesModalProps: React.FC = () => {
-  const tasks: string[] = [];
+  const tasks = useAppSelector((state) => state.favourites.favourites);
 
   if (tasks.length == 0) {
     return (
@@ -16,7 +17,7 @@ const FavouritesModalProps: React.FC = () => {
     return (
       <div>
         {tasks.map((item) => (
-          <p>{item}</p>
+          <p>{item.id}</p>
         ))}
       </div>
     );

@@ -1,0 +1,21 @@
+
+.info-item-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.info-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.info-item-percent {
+  font-size: 12px;
+  font-weight: 600;
+}
+.info-item-percent-green {
+  color: #16c784;
+}
+.info-item-percent-red {
+  color: #ea3943;
+}

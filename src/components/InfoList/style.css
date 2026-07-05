@@ -1,0 +1,11 @@
+.info-list-wrapper {
+  padding: 16px 8px;
+  margin-inline: 0 !important;
+}
+.info-item-wrapper {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  background-color: #222531;
+  border-radius: 16px;
+  height: 109px;
+}

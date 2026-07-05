@@ -1,0 +1,23 @@
+.pagination-controls {
+  margin: 16px 0;
+  --ant-pagination-item-bg:                 !important;
+  color: #fff !important;
+}
+.pagination-controls .ant-pagination-options {
+  display: none !important;
+}
+.pagination-controls .ant-pagination-item-link {
+  color: #858ca2 !important;
+}
+.pagination-controls .ant-pagination-item a {
+  color: #fff !important;
+}
+.pagination-controls .ant-pagination-item-ellipsis {
+  color: #fff !important;
+}
+.pagination-controls .ant-pagination-item-active {
+  background-color: #3861fb !important;
+}
+.pagination-controls .ant-pagination-item:hover {
+  background-color: #323546 !important;
+}

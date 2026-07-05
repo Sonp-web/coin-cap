@@ -1,0 +1,71 @@
+.coin-list {
+  color: #fff !important;
+  padding: 10px 0;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(50, 53, 70);
+  margin-inline: 0px !important;
+  align-items: center;
+}
+.coin-list .ant-col {
+  padding-inline: 0 !important;
+  padding-right: 10px !important;
+}
+.coin-list .ant-col,
+.coin-list .ant-btn {
+  vertical-align: center;
+  font-size: 12px !important;
+  font-weight: 700;
+}
+.coin-list-wrapper {
+  margin-top: 16px;
+  border-top: 1px solid rgb(50, 53, 70);
+}
+.coin-list-name {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+}
+.coin-list-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.coin-list-items {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  column-gap: 5px;
+  border-bottom: 1px solid rgb(50, 53, 70);
+  padding: 0 !important;
+}
+.coin-list-items .ant-col {
+  padding-right: 15px !important;
+}
+
+.coin-list button {
+  padding: 0;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.coin-list button:active,
+.coin-list button:hover {
+  background: none !important;
+  border: none !important;
+  color: #fff !important;
+}
+.coin-list-title {
+  margin: 0;
+  text-align: left;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.coin-list-paragraph {
+  color: #a1a7bb;
+  text-align: left;
+  margin: 0 !important;
+  padding-bottom: 16px !important;
+  border-bottom: 1px solid rgb(50, 53, 70);
+}

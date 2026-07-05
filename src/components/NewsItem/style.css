@@ -1,0 +1,23 @@
+.news-item {
+  display: block !important;
+  width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: linear-gradient(135deg, #0f1a3a 0%, #0e0a1e 50%, #1a0e2e 100%);
+  border: 1px solid #263052;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+}
+.news-item:hover,
+.news-item:active {
+  background: linear-gradient(
+    135deg,
+    #1a0e2e 0%,
+    #1f1238 50%,
+    #1a0e2e 100%
+  ) !important;
+  border-color: #38285a !important;
+  color: #fff !important;
+}

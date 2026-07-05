@@ -109,5 +109,5 @@ code {
   background: var(--code-bg);
 }
 section {
-  padding: 0 200px;
+  padding: 0 16px;
 }

@@ -10,7 +10,7 @@ const ProfileModal: React.FC = () => {
         trigger="click"
         content={<ProfileModalProps />}
         align={{
-          offset: [0, 0],
+          offset: [-10, 0],
         }}
         overlayClassName="profile-modal"
       >
