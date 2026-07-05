@@ -2,7 +2,7 @@ import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 
 type FavouritesCoinType = {
   id: string;
-  priceUsd: number;
+  priceUsd: string;
   percent24: number;
 };
 type FavouritesCoinsType = {

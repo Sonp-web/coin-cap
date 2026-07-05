@@ -3,7 +3,6 @@ import "./style.css";
 import HeaderButton from "../HeaderButton";
 import { PieChartOutlined } from "@ant-design/icons";
 import InputButton from "../InputButton";
-import LoginButton from "../LoginButton";
 import FavouritesModal from "../FavouritesModal";
 import ProfileModal from "../ProfileModal";
 const { Header } = Layout;
