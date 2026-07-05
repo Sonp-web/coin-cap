@@ -3,7 +3,7 @@ import { LineChart, Line, ResponsiveContainer, YAxis } from "recharts";
 
 export type ChartDataPoint = {
   date: string;
-  capitalization: number;
+  capitalization: string;
 };
 
 const CapitalizationChart: React.FC<{
