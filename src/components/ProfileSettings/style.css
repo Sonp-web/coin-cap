@@ -72,3 +72,24 @@
 .settings-modal .ant-tabs-tab-btn:focus {
   color: #ffffff !important;
 }
+.profile-list-button {
+  width: 100%;
+  background-color: #222531 !important;
+  color: #fff !important;
+  border: none;
+  padding: 12px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px !important;
+  display: flex;
+  justify-content: space-between;
+  height: auto !important;
+}
+.profile-list-button:hover {
+  border: none !important;
+
+  background-color: #323546 !important;
+}
+.profile-list-button_value {
+  color: #a1a7bb;
+}

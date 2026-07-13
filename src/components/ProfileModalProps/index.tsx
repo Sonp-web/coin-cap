@@ -12,7 +12,6 @@ const ProfileModalProps: React.FC = () => {
       </Flex>
       <hr className="profile-modal-props__hr" />
       <ProfileSettings />
-      {/* // <ProfileListButton /> */}
       <ThemeChoice />
     </Flex>
   );

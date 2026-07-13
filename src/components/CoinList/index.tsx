@@ -15,9 +15,10 @@ const CoinList: React.FC = () => {
     dispatch(getCoinsWithHistory());
   }, [dispatch]);
   const coins = useAppSelector((state) => state.coins.coins);
-  const filter = useAppSelector((state) => state.filter);
   console.log(coins);
 
+  const filter = useAppSelector((state) => state.filter);
+  
   return (
     <section>
       <div className="coin-list-wrapper">
@@ -83,6 +84,7 @@ const CoinList: React.FC = () => {
           {coins.map((item) => (
             <CoinItem
               key={crypto.randomUUID()}
+              url={item.id}
               id={item.rank}
               symbol={item.symbol}
               name={item.name}
@@ -122,7 +124,7 @@ const CoinList: React.FC = () => {
                       ? "#16c784"
                       : "#ea3943"
                   }`}
-                  width="84px"
+                  width="100px"
                   height="36px"
                 />
               }

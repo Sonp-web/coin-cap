@@ -1,0 +1,22 @@
+.coin-price .news-item {
+  font-size: 12px !important;
+  width: 60%;
+  padding: 4px 8px;
+  height: auto;
+  width: auto;
+  text-align: left;
+  margin-top: 4px;
+}
+.coin-price {
+  margin-top: 12px;
+}
+.coin-price-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 !important;
+}
+.coin-price-flex {
+  align-items: center;
+  gap: 10px;
+}

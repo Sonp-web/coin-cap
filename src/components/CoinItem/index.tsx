@@ -3,13 +3,17 @@ import {
   StarOutlined,
   CaretUpOutlined,
   CaretDownOutlined,
+  StarFilled,
 } from "@ant-design/icons";
 import "./style.css";
 import { formatNumber } from "../../utils/formatNumber";
-import { useAppDispatch } from "../../hooks/hooks";
-import { addCoin } from "../../redux/slices/favouritesSlice";
+import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
+import { toggleCoin } from "../../redux/slices/favouritesSlice";
+import { Link } from "react-router-dom";
+import { BuyModal } from "../BuyModal";
 export type CoinItemType = {
   id: string;
+  url: string;
   name: string;
   symbol: string;
   priceUsd: string;
@@ -23,6 +27,7 @@ export type CoinItemType = {
 };
 const CoinItem: React.FC<CoinItemType> = ({
   id,
+  url,
   name,
   symbol,
   priceUsd,
@@ -35,14 +40,24 @@ const CoinItem: React.FC<CoinItemType> = ({
   capital7,
 }) => {
   const dispatch = useAppDispatch();
+  const favourites = useAppSelector((state) => state.favourites.favourites);
+  const isFav = favourites.some((item) => item.id === id);
   return (
-    <div className="test" onClick={() => console.log(2)}>
+    <Link to={`/${url}`} className="test">
       <Col span={1} className="coin-item-icon">
         <Button
-          onClick={() => dispatch(addCoin({ id, priceUsd, percent24 }))}
+          onClick={(e: React.MouseEvent<HTMLElement, MouseEvent>) => {
+            e.stopPropagation();
+            e.preventDefault();
+            dispatch(toggleCoin({ id, priceUsd, percent24 }));
+          }}
           className="coin-item-icon"
         >
-          <StarOutlined />
+          {isFav ? (
+            <StarFilled style={{ color: "yellow" }} />
+          ) : (
+            <StarOutlined />
+          )}
         </Button>
       </Col>
       <Col span={1}>{id}</Col>
@@ -51,9 +66,7 @@ const CoinItem: React.FC<CoinItemType> = ({
       </Col>
 
       <Col span={1}>
-        <Button onClick={() => console.log(1)} className="coin-item-button">
-          Покупка
-        </Button>
+        <BuyModal url={url} />
       </Col>
       <Col span={2} className="coin-list-price">
         {priceUsd}$
@@ -101,7 +114,7 @@ const CoinItem: React.FC<CoinItemType> = ({
         {formatNumber(Number(trade)) + " " + symbol}
       </Col>
       <Col span={2}>{capital7}</Col>
-    </div>
+    </Link>
   );
 };
 export default CoinItem;

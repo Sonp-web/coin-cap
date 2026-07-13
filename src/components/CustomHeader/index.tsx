@@ -1,10 +1,10 @@
 import { Layout, Menu, Flex, type MenuProps } from "antd";
 import "./style.css";
-import HeaderButton from "../HeaderButton";
-import { PieChartOutlined } from "@ant-design/icons";
 import InputButton from "../InputButton";
 import FavouritesModal from "../FavouritesModal";
 import ProfileModal from "../ProfileModal";
+import { Outlet } from "react-router-dom";
+import WalletModal from "../WalletModal";
 const { Header } = Layout;
 const headerStyle: React.CSSProperties = {
   textAlign: "center",
@@ -32,14 +32,14 @@ const CustomHeader: React.FC = () => {
             items={navBar}
           />
           <Flex align="center" gap="small">
-            <HeaderButton icon={<PieChartOutlined />}>Портфель</HeaderButton>
-
+            <WalletModal />
             <FavouritesModal />
             <InputButton />
             <ProfileModal />
           </Flex>
         </section>
       </Header>
+      <Outlet />
     </>
   );
 };

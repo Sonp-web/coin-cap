@@ -16,6 +16,7 @@ const coinsSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(getCoinsWithHistory.fulfilled, (state, action) => {
+      console.log("✅ Данные загружены:", action.payload);
       state.coins = action.payload;
     });
   },

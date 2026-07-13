@@ -13,7 +13,7 @@ const CapitalizationChart: React.FC<{
   height?: string;
 }> = ({ data, color, width = "240px", height = "40px" }) => {
   return (
-    <div style={{ minWidth: width, height: height }}>
+    <div style={{ width: width, height: height, margin: "0 auto" }}>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart
           data={data}

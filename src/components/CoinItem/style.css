@@ -24,6 +24,8 @@
   transition: background 0.2s;
   padding: 5px 0;
   border-bottom: 1px solid rgb(50, 53, 70);
+  text-decoration: none;
+  color: #fff !important;
 }
 .test:hover {
   background-color: #323546 !important;
@@ -52,4 +54,7 @@
   background-color: rgba(0, 0, 0, 0) !important;
   color: #fff !important;
   border: none !important;
+}
+.coin-item-wrapper {
+  display: block !important;
 }

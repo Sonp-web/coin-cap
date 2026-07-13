@@ -17,7 +17,7 @@ const FavouritesModalProps: React.FC = () => {
     return (
       <div>
         {tasks.map((item) => (
-          <p>{item.id}</p>
+          <p key={item.id}>{item.id}</p>
         ))}
       </div>
     );

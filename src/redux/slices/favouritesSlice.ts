@@ -15,10 +15,18 @@ const favouritesSlice = createSlice({
   name: "favourites",
   initialState,
   reducers: {
-    addCoin(state, action: PayloadAction<FavouritesCoinType>) {
-      state.favourites.push(action.payload);
+    toggleCoin(state, action: PayloadAction<FavouritesCoinType>) {
+      const index = state.favourites.findIndex(
+        (item) => item.id === action.payload.id,
+      );
+      if (index !== -1) {
+        state.favourites.splice(index, 1);
+      } else {
+        state.favourites.push(action.payload);
+      }
     },
   },
 });
+
 export default favouritesSlice.reducer;
-export const { addCoin } = favouritesSlice.actions;
+export const { toggleCoin } = favouritesSlice.actions;

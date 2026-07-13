@@ -1,0 +1,25 @@
+.coin-title-title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+  color: #fff !important;
+}
+.coin-title {
+  align-items: baseline;
+  gap: 4px;
+}
+.coin-title-symbol {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a7bb;
+  margin: 0 !important;
+}
+.coin-title-rank {
+  color: #a1a7bb;
+  background-color: #323546;
+  padding: 0 6px;
+  border-radius: 32px;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0 !important;
+}
